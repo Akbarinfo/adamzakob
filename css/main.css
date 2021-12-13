@@ -9,7 +9,6 @@ body {
   font-family: "Red Hat Display", "Arial", sans-serif;
   color: #666666;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   margin: auto;
 }
@@ -25,16 +24,16 @@ hr{
   border: none;
   width: 50px;
   height: 2px;
-  margin-top: 10px;
+  padding-top: 10px;
 
 
 }
-/* HEADER QISMI */
+/* HEADER Part */
 
 .header-inner {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .header-nav {
@@ -71,45 +70,39 @@ hr{
   border: none;
 }
 
+/* header adam zakob part */
 
-/* MAIN part */
-
-/* main adam zakob part */
-
-.main-adam-section {
+.header-adam-section {
   display: flex;
 
 }
 
-.main-adam-title {
+.header-adam-title {
   width: 358px;
   height: 212px;
-  margin-top: 125px;
+  padding-top: 125px;
   margin-bottom: 20px;
   margin-right: 141px;
 }
 
-.main-adam-h1 {
+.header-adam-h1 {
   font-size: 60px;
-  font-style: normal;
   font-weight: 700;
   line-height: 72px;
   color: #25202F;
 }
 
-.main-adam-item {
+.header-adam-item {
   font-size: 22px;
   line-height: 120%;
   font-weight: 500;
-  font-style: normal;
   color: #666666;
 }
 
-.main-adam-ux {
+.header-adam-ux {
   font-size: 24px;
   line-height: 32px;
   font-weight: normal;
-  font-style: normal;
   color: #25202F;
   padding-top: 15px;
   padding-bottom: 50px;
@@ -125,14 +118,16 @@ header button {
   font-size: 24px;
   line-height: 32px;
   font-weight: 500;
-  font-style: normal;
 }
 
-.main-adam-images {
+.header-adam-images {
   background-image: url(../images/adam-fon-icon.png);
   width: 752px;
   height: 750px;
 }
+
+
+/* MAIN part */
 
 
 /* <!-- MAIN SERVICES QISMI  --> */
@@ -145,7 +140,6 @@ header button {
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
-  font-style: normal;
   color: #8643DC;
 }
 
@@ -155,9 +149,8 @@ header button {
   font-size: 36px;
   line-height: 48px;
   font-weight: bold;
-  font-style: normal;
   color: #25202F;
-  margin-top: 15px;
+  padding-top: 15px;
 }
 
 .main-services-ul {
@@ -172,7 +165,7 @@ header button {
   font-size: 16px;
   line-height: 32px;
   color: #47444E;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .main-services-h3 {
@@ -181,6 +174,7 @@ header button {
   height: 62px;
   margin: auto;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 /* MAIN PORTFOLIO PART */
@@ -188,13 +182,13 @@ header button {
 .main-portfolio-section {
   background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
   height: 722px;
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .main-portfolio-header {
   display: flex;
   justify-content: space-between;
-  margin-top: 27px;
+  padding-top: 27px;
 }
 
 .main-portfolio-header a {
@@ -202,7 +196,6 @@ header button {
   font-size: 24px;
   line-height: 32px;
   font-weight: 500;
-  font-style: normal;
   text-decoration: underline;
   padding-right: 5px;
 }
@@ -210,7 +203,6 @@ header button {
 .main-portfolio-h2 {
   width: 294px;
   height: 96px;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
@@ -242,17 +234,16 @@ header button {
   height: 96px;
   color: #25202F;
   font-weight: bold;
-  font-style: normal;
   font-size: 36px;
   line-height: 48px;
-  margin-top: 27px;
+  padding-top: 27px;
 }
 
 .main-clients-ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  margin-top: 44px;
+  padding-top: 44px;
 }
 
 .main-clients-list-slack {
@@ -316,12 +307,11 @@ header button {
 
 .main-clients-list-h3 {
   height: 24px;
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   color: #000;
-  margin-top: 22px;
+  padding-top: 22px;
 }
 
 
@@ -329,15 +319,14 @@ header button {
 
 .main-testimonials-section {
   background: linear-gradient(180deg, rgba(203, 163, 255, 0.2) 0%, rgba(197, 255, 176, 0.2) 100%);
-  height: 722px;
-  margin-top: 100px;
+  height: 792px;
+  padding-top: 100px;
 }
 
 .main-testimonials-title {
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
-  font-style: normal;
   color: #8643DC;
   padding-top: 50px;
 }
@@ -346,21 +335,19 @@ header button {
   width: 217px;
   height: 96px;
   font-weight: bold;
-  font-style: normal;
   font-size: 36px;
   line-height: 48px;
   color: #25202F;
-  margin-top: 15px;
+  padding-top: 15px;
 }
 
 .main-testimonials-h3 {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   color: #000;
   align-items: center;
-  margin-top: 19px;
+  padding-top: 19px;
 }
 
 .main-testimonials-main {
@@ -383,14 +370,13 @@ header button {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  margin-top: 50px;
+  padding-top: 50px;
   padding-left: 166px;
   padding-right: 165px;
 }
 
 .main-testimonials-ul-list {
   width: 569px;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 32px;
@@ -405,7 +391,6 @@ header button {
 
 .main-testimonials-ul-michal {
   font-size: 14px;
-  font-style: normal;
   font-weight: normal;
   color: #000;
   text-align: center;
@@ -417,7 +402,7 @@ header button {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  margin-top: 40px;
+  padding-top: 100px;
 }
 
 .main-testimonials-dot {
@@ -441,7 +426,7 @@ header button {
 .main-blog-section {
   display: flex;
   justify-content: center;
-  margin-top: 84px;
+  padding-top: 84px;
 }
 
 .main-blog-title {
@@ -452,12 +437,11 @@ header button {
 .main-blog-h2 {
   width: 165px;
   height: 96px;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
   color: #25202F;
-  margin-top: 15px;
+  padding-top: 15px;
 }
 
 .main-blog-ul {
@@ -469,7 +453,6 @@ header button {
 .main-blog-ul-list {
   width: 350px;
   height: 331px;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
@@ -481,7 +464,6 @@ header button {
   width: 255px;
   height: 350px;
   margin-left: 30px;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
@@ -492,19 +474,17 @@ header button {
 .main-blog-ul-list-h3 {
   width: 350px;
   height: 47px;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
   color: #000;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 .main-blog-ul-list2-h3 {
   background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #25202F 100%);
   position: absolute;
   bottom: 0px;
   width: 255px;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
@@ -527,7 +507,7 @@ header button {
 
 .footer-section {
   height: 173px;
-  margin-top: 96px;
+  padding-top: 96px;
 }
 
 .footer-h2 {
@@ -535,7 +515,6 @@ header button {
   height: 48px;
   font-size: 36px;
   line-height: 48px;
-  font-style: normal;
   font-weight: 400;
   color: #25202F;
   margin: auto;
@@ -551,6 +530,6 @@ header button {
 }
 
 .footer-ul-list {
-  margin-top: 30px;
+  padding-top: 30px;
 
 }
