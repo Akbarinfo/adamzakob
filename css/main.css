@@ -16,9 +16,9 @@ body {
 }
 
 .container {
-  background-color: white;
   width: 1110px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 hr{
@@ -32,7 +32,7 @@ hr{
 }
 /* HEADER QISMI */
 
-.header-section {
+.header-inner {
   display: flex;
   align-items: center;
   margin-top: 50px;
@@ -41,7 +41,6 @@ hr{
 .header-nav {
   width: 338px;
   height: 26px;
-  font-style: normal;
   font-size: 20px;
   line-height: 26px;
   margin: auto;
@@ -70,6 +69,7 @@ hr{
   height: 70px;
   border-radius: 50%;
   padding: 20px;
+  border: none;
 }
 
 
@@ -116,7 +116,7 @@ hr{
   padding-bottom: 50px;
 }
 
-main button {
+header button {
   width: 200px;
   height: 60px;
   background: #8643DC;
@@ -129,13 +129,8 @@ main button {
   font-style: normal;
 }
 
-.main-adam-btn a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .main-adam-images {
-  background-image: url(../images/adam-fon-icon.png);
+  /* background-image: url(../images/adam-fon-icon.png); */
   width: 752px;
   height: 750px;
 }
@@ -240,7 +235,6 @@ main button {
 /* MAIN CLIENTS PART  */
 
 .main-clients-section {
-  width: 1080px;
   height: 361px;
 }
 
@@ -447,6 +441,7 @@ main button {
 
 .main-blog-section {
   display: flex;
+  justify-content: center;
   margin-top: 84px;
 }
 
