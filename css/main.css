@@ -24,7 +24,7 @@ hr{
   border: none;
   width: 50px;
   height: 2px;
-  padding-top: 10px;
+  margin-top:  10px;
 
 
 }
@@ -51,6 +51,14 @@ hr{
 }
 
 .header-nav a:hover {
+  color: #25202F;
+}
+
+.header-nav-active {
+  color: #25202F;
+}
+
+.header-nav-active a {
   color: #25202F;
 }
 
@@ -121,7 +129,6 @@ header button {
 }
 
 .header-adam-images {
-  background-image: url(../images/adam-fon-icon.png);
   width: 752px;
   height: 750px;
 }
